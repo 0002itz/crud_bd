@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from django.shortcuts import HttpResponse
-from myapp_1 import views
 
 
 # Create your views here.
