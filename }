@@ -1,0 +1,24 @@
+creation of page projects
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   db.sqlite3
+#	modified:   myapp_1/__pycache__/admin.cpython-311.pyc
+#	modified:   myapp_1/__pycache__/models.cpython-311.pyc
+#	modified:   myapp_1/__pycache__/urls.cpython-311.pyc
+#	modified:   myapp_1/__pycache__/views.cpython-311.pyc
+#	modified:   myapp_1/admin.py
+#	new file:   myapp_1/migrations/0005_rename_proyect_project.py
+#	new file:   myapp_1/migrations/__pycache__/0005_rename_proyect_project.cpython-311.pyc
+#	modified:   myapp_1/models.py
+#	modified:   myapp_1/templates/index.html
+#	new file:   myapp_1/templates/projects.html
+#	modified:   myapp_1/urls.py
+#	modified:   myapp_1/views.py
+#	modified:   mysite/__pycache__/urls.cpython-311.pyc
+#	modified:   mysite/urls.py
+#
