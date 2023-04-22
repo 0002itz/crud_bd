@@ -3,4 +3,5 @@ from myapp_1 import views
 
 urlpatterns = [
     path('', views.index),
+    path('project/', views.project),
 ]
