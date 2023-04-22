@@ -3,5 +3,8 @@ from django.shortcuts import HttpResponse
 
 
 # Create your views here.
-def hello(request):
-    return HttpResponse("<h2>Hello word</h2>")
+def index(request):
+    title= "titel_index"
+    return render(request,"index.html", {
+        'title': title
+    })
