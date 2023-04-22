@@ -11,8 +11,7 @@ def index(request):
     })
 
 def project(request):
-    title = "Project"
     project = Project.objects.all()
     return render(request,"projects.html", {
-        'title': title
+        'project': project
     })
