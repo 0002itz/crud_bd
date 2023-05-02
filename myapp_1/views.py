@@ -1,14 +1,23 @@
 from django.shortcuts import render
 from django.shortcuts import HttpResponse
 from .models import Project
-
+from .models import Question
+from django.template import loader
 
 # Create your views here.
+#def index(request):
+#    title= "titel_index"
+#    return render(request,"index.html", {
+#        'title': title
+#    })
+
 def index(request):
-    title= "titel_index"
-    return render(request,"index.html", {
-        'title': title
-    })
+    latest_question_list = Question.objects.order_by("-pub_date")[:5]
+    template = loader.get_template("index.html")
+    context = {
+        "latest_question_list": latest_question_list,
+    }
+    return HttpResponse(template.render(context, request))
 
 def project(request):
     projects= Project.objects.all()
